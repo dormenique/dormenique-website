@@ -1,10 +1,9 @@
 import React from "react";
-import WelcomeText from "./WelcomeText";
+import "./About.css";
 
 export default function About() {
   return (
     <div className="about-page">
-      <WelcomeText />
       <p>
         My focus area for the past few years has been front-end development with
         HTML, CSS, JavaScript (React, JSON, jQuery). I also work with Git,
@@ -16,9 +15,9 @@ export default function About() {
         alt="profile pic"
       />
       <p>
-        When I was 23 years old, I left my city (Jundiaí, in São Paulo, Brazil) to
-        live in Lisbon, Portugal. In Brazil, I put all my effort on being my own
-        boss: I was a really successful hand lettering teacher, teaching in
+        When I was 23 years old, I left my city (Jundiaí, in São Paulo, Brazil)
+        to live in Lisbon, Portugal. In Brazil, I put all my effort on being my
+        own boss: I was a really successful hand lettering teacher, teaching in
         really important places for the visual arts market in Brazil, such as
         several different SESCs (one sort of a cultural association for workers
         that has different units spread through the whole country), Papelaria
@@ -33,6 +32,5 @@ export default function About() {
         feeling. Okay… maybe it’s because I’m too passionate!
       </p>
     </div>
-
   );
 }

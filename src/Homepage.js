@@ -1,16 +1,17 @@
 import React from "react";
 import "./Homepage.css";
-import WelcomeText from "./WelcomeText";
+import WelcomeText from "./Components/Welcome/WelcomeText";
+import About from "./Components/About/About";
+import Experience from "./Components/Experience/Experience";
+import Header from "./Components/Header/Header";
 
 export default function Homepage() {
   return (
     <div className="home-page">
-      <img
-        src={"../logo-unicorn.png"}
-        className="img-logo"
-        alt="logo unicorn"
-      />
+      <Header />
       <WelcomeText />
+      <About />
+      <Experience />
     </div>
   );
 }
