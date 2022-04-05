@@ -1,4 +1,5 @@
 import React from "react";
+import SocialMedia from './SocialMedia'
 
 class Contact extends React.Component {
   constructor(props) {
@@ -60,6 +61,7 @@ class Contact extends React.Component {
             Submit
           </button>
         </form>
+        <SocialMedia />
       </div>
     );
   }

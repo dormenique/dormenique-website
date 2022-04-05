@@ -5,7 +5,8 @@ import Footer from "./Components/Footer";
 export default function Homepage() {
   return (
     <div>
-      <Card />
+      <Card /* arrow display *only* when is not on Profile's page, to go back to the other ones*/
+      />
       <Footer />
     </div>
   );
