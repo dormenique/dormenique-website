@@ -1,8 +1,7 @@
 import React from "react";
-import { About, Experience, Skills } from "./Info";
 import "./Card.css";
 import Header from "./Header";
-import Contact from "./Contact";
+import { AboutCard, ExperienceCard, SkillsCard } from "./Info";
 
 export default function Card() {
   return (
@@ -10,11 +9,11 @@ export default function Card() {
       <div className="rectangle">
         <Header />
         <div className="info-group">
-          <About />
-          <Experience />
-          <Skills />
+          <AboutCard />
+          <ExperienceCard />
+          <SkillsCard />
         </div>
-        <img src="/selo.svg" alt="stamp" className="stamp"/>
+        <img src="/selo.svg" alt="stamp" className="stamp" />
       </div>
     </div>
   );
