@@ -1,15 +1,18 @@
 .bg-card {
+  position: relative;
   background-color: #fce1eb;
   padding: 30px;
   border-radius: 20px;
   width: 1000px;
-  height: 500px;
+  height: fit-content;
+  margin: auto;
+  margin-top: 100px;
 }
 
 .rectangle {
-    border: #000000 solid 2px;
-    border-radius: 20px;
-    box-sizing: initial;
+  border: #000000 solid 2px;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .profile-pic {
@@ -26,4 +29,10 @@
 .info-group {
   display: flex;
   flex-direction: row;
+}
+
+.stamp {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }

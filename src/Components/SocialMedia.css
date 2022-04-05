@@ -1,0 +1,9 @@
+.social-media {
+  width: fit-content;
+}
+
+.social-media > a > img {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
