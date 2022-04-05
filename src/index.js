@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Homepage from "./Homepage";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Footer from "./Components/Footer";
-import Card from "./Components/Card";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card />
-    <Footer />
+    <Homepage />
   </React.StrictMode>,
   document.getElementById("root")
 );

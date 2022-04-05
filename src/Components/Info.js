@@ -1,28 +1,28 @@
 import React from "react";
 
-export function About() {
+export function AboutCard() {
   return (
-      <div className="about">
-        <button className="btn-about">About</button>
-        <p className="p-about">Content</p>
+      <div className="content">
+        <button>About</button>
+        <p>Content</p>
       </div>
   );
 }
 
-export function Experience() {
+export function ExperienceCard() {
     return (
-        <div className="experience">
-          <button className="btn-experience">Experience</button>
-          <p className="p-experience">Content</p>
+      <div className="content">
+          <button>Experience</button>
+          <p>Content</p>
         </div>
     );
   }
 
-  export function Skills() {
+  export function SkillsCard() {
     return (
-        <div className="skills">
-          <button className="btn-skills">Skills</button>
-          <p className="p-skills">Content</p>
+      <div className="content">
+          <button>Skills</button>
+          <p>Content</p>
         </div>
     );
   }
