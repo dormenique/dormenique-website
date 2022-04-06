@@ -5,6 +5,17 @@
   margin-right: 30px;
 }
 
+.header-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-text > p {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 6px;
+  margin-top: 0;
+}
+
 .info-group {
   position: relative;
   display: flex;
@@ -20,30 +31,12 @@
   font-size: 20px;
   text-transform: lowercase;
   padding: 14px;
-  margin-top: 30px;
   list-style-type: none;
 }
 
 .info-group > p {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-}
-
-.profile-text > h2 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-size: 30px;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-.profile-text > p {
-  font-family: "Roboto", sans-serif;
-}
-
-.profile-text {
-  display: flex;
-  flex-direction: row;
 }
 
 .email {
