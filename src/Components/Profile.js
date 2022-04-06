@@ -3,12 +3,18 @@ import "./Profile.css";
 
 export default function Profile() {
   return (
-    <div className="header-card" /*redirect to Contact.js*/>
-      <img src="/profile-pic.jpeg" alt="profile pic" className="profile-pic" />{" "}
-      <div className="profile-text">
-        <h2>Dominique Dias</h2>
-        <p>25 years old</p>
-        <p>Lisbon</p>
+    <div /*redirect to Contact.js*/>
+      <div className="header-card">
+        <img
+          src="/profile-pic.jpeg"
+          alt="profile pic"
+          className="profile-pic"
+        />
+        <div className="profile-text">
+          <h2>Dominique Dias</h2>
+          <p>25 years old</p>
+          <p>Lisbon</p>
+        </div>
       </div>
       <ul className="info-group">
         <li>About</li>
