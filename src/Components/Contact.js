@@ -1,5 +1,5 @@
 import React from "react";
-import SocialMedia from './SocialMedia'
+import SocialMedia from "./SocialMedia";
 
 class Contact extends React.Component {
   constructor(props) {
@@ -61,7 +61,10 @@ class Contact extends React.Component {
             Submit
           </button>
         </form>
-        <SocialMedia />
+        <p>
+          Do not forget to check my <a>github</a>, <a>linkedin</a>,{" "}
+          <a>medium</a> and <a>instagram</a>.
+        </p>
       </div>
     );
   }
