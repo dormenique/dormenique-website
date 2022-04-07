@@ -1,17 +1,16 @@
 import React from "react";
 import "./Card.css";
 import Profile from "./Profile";
-import Contact from "./Contact";
-import About from "./About";
+import Contact from "../pages/Contact";
+import About from "../pages/About";
 import SocialMedia from "./SocialMedia";
-import Skills from "./Skills";
-import Experience from "./Experience";
+import Skills from "../pages/Skills";
+import Experience from "../pages/Experience";
 import Arrow from "./Arrow";
 
 export default function Card() {
   return (
-    <body>
-      <Arrow />
+    <div>
       <div className="bg-card">
         <div className="rectangle">
           <img
@@ -23,6 +22,6 @@ export default function Card() {
         </div>
         <img src="/selo.svg" alt="stamp" className="stamp" />
       </div>
-    </body>
+    </div>
   );
 }

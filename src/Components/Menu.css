@@ -1,0 +1,9 @@
+.menu {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  position: relative;
+  font-size: 20px;
+  text-transform: lowercase;
+  padding: 14px;
+  list-style-type: none;
+}

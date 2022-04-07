@@ -1,12 +1,15 @@
 import React from "react";
+import Arrow from "./Components/Arrow";
 import Card from "./Components/Card";
 import Footer from "./Components/Footer";
+import Menu from "./Components/Menu";
 
-export default function Homepage() {
+export default function App() {
   return (
     <div>
-      <Card /* arrow display *only* when is not on Profile's page, to go back to the other ones*/
-      />
+      <Arrow />
+      <Menu />
+      <Card />
       <Footer />
     </div>
   );

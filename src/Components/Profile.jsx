@@ -1,5 +1,6 @@
 import React from "react";
 import "./Profile.css";
+import Menu from "./Menu";
 
 export default function Profile() {
   return (
@@ -16,13 +17,8 @@ export default function Profile() {
           <p>Lisbon</p>
         </div>
       </div>
-      <ul className="info-group">
-        <li>About</li>
-        <li>Experience</li>
-        <li>Skills</li>
-        <li>Contact</li>
-      </ul>
-      <p>
+      <Menu />
+      <p className="text">
         I’m a fast learner, very proactive and the most organized employee you
         could ever have. Also a Front-End Developer and talented brazilian girl.
       </p>

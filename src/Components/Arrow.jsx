@@ -1,9 +1,12 @@
 import React from "react";
-import './Arrow.css'
 
 export default function Arrow() {
   return (
-    <div className="arrow">
+    <div
+      style={{
+        width: 36,
+      }}
+    >
       <img src="/arrow.svg" alt="arrow" />
     </div>
   );
