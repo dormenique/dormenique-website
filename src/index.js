@@ -1,13 +1,28 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Homepage from "./Homepage";
-import "./index.css";
+import { Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import Profile from "./Components/Profile";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Experience from "./pages/Experience";
+import Skills from "./pages/Skills";
 import reportWebVitals from "./reportWebVitals";
+import Footer from "./Components/Footer";
+import Menu from "./Components/Menu";
+import "./index.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Homepage />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <Menu />
+    <Route path="/profile" component={Profile} />
+    <Route path="/about" component={About} />
+    <Route path="/skills" component={Skills} />
+    <Route path="/experience" component={Experience} />
+    <Route path="/contact" component={Contact} />
+    <Footer />
+  </BrowserRouter>,
+
   document.getElementById("root")
 );
 
