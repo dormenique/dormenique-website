@@ -2,34 +2,18 @@ import React from "react";
 
 export default function Skills() {
   return (
-    <div className="Skills">
-        <h2>Skills</h2>
-      <ul>
-        <li>
-          First One
-          <ul>
-            <li>Details</li>
-          </ul>
-        </li>
-        <li>
-          Second One
-          <ul>
-            <li>Details</li>
-          </ul>
-        </li>
-        <li>
-          Third One
-          <ul>
-            <li>Details</li>
-          </ul>
-        </li>
-        <li>
-          Fourth One
-          <ul>
-            <li>Details</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+      <div className="bg-card">
+        <div className="rectangle">
+          <img
+            src="/logo-unicorn.png"
+            alt="unicorn pic"
+            className="unicorn-pic"
+          />
+
+          <h2>Skills</h2>
+          <p className="text">Skills right here</p>
+          <p className="email">hello@dormenique.com</p>
+        </div>
+      </div>
   );
 }
